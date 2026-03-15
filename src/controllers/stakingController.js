@@ -1,4 +1,4 @@
-const Stake = require('../models/Stake ');
+const Stake = require('../models/Stake');
 const User  = require('../models/User');
 
 const POOLS = [

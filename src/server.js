@@ -8,12 +8,8 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: [
-    'http://localhost:3000',
-    'https://frontend-7mi8e7yln-s3507831-droids-projects.vercel.app',
-    '*'
-  ],
-  credentials: true,
+  origin: '*',
+  credentials: false,
 }));
 app.use(express.json());
 
